@@ -74,7 +74,7 @@ function setup() {
 function draw() {
   //trex.debug = true;
   background(255);
-  text("Score: "+ score, 500,50);
+  text("Score: "+ score, width-100,50);
     console.log(trex.y)
 
   if (gameState===PLAY){
@@ -128,7 +128,7 @@ function draw() {
     }
   }
   
-  text("HIGH SCORE "+HighScore,400,50);
+  text("HIGH SCORE "+HighScore,20,50);
   drawSprites();
 }
 
